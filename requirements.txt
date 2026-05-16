@@ -1,0 +1,7 @@
+akshare>=1.16.0
+mootdx>=0.11.6
+pandas>=2.2.0
+requests>=2.32.0
+tushare>=1.4.18
+yfinance>=0.2.54
+statsmodels>=0.14.4

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ashare-research"
+version = "0.1.0"
+description = "Organized local toolkit for A-share data collection and research"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "akshare>=1.16.0",
+  "mootdx>=0.11.6",
+  "pandas>=2.2.0",
+  "requests>=2.32.0",
+  "tushare>=1.4.18",
+  "yfinance>=0.2.54",
+  "statsmodels>=0.14.4"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
